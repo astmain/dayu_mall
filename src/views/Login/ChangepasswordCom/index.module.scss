@@ -1,0 +1,54 @@
+.updatepasswordhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  // margin-top: 20px;
+}
+
+.updatePassword {
+  font-size: 22px;
+  color: #222222;
+  margin-bottom: 30px;
+
+  text-align: left;
+}
+.phoneNumber {
+  width: 430px;
+  margin: 0 auto;
+}
+.verificationCode {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.passwordnumber {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.confirmmodification {
+  width: 430px;
+  height: 66px;
+  // margin: 0 auto;
+  //   margin-top: 20px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.backLogin {
+  width: 430px;
+  // margin: 0 auto;
+  text-align: center;
+
+  .bugenggai {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  a {
+    color: #1366f0;
+    font-size: 16px;
+  }
+}

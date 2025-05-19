@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+  },
+  "extends": ["./.eslintrc-auto-import.json", "plugin:react-hooks/recommended", "code-style-lint-react-ts"],
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "comma-dangle": [0],
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-underscore-dangle": 0,
+    "trailingComma": 0,
+    "singleQuote": 0,
+    "react/prop-types": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+  },
+  "overrides": [
+    {
+      "files": ["*.json", "*.jsonc"],
+      "rules": {
+        "comma-dangle": "off",
+        "no-underscore-dangle": "off",
+      },
+    },
+  ],
+}

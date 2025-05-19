@@ -1,0 +1,42 @@
+{
+  "login": {
+    "btn": "登入/註冊"
+  },
+  "header": {
+    "menu": {
+      "commodity": "3D模型",
+      "modeling": "3D設計",
+      "print": "3D列印",
+      "cnc": "CNC加工",
+      "lamination": "手板覆膜",
+      "scan": "3D掃描",
+      "about": "關於我們"
+    },
+    "cart": "購物車",
+    "account": {
+      "myorder": "我的訂單",
+      "mywallet": "我的錢包",
+      "merchant": "商戶中心",
+      "personal": "個人中心",
+      "myfavorite": "收藏和關注",
+      "myworks": "我上傳的作品",
+      "logout": "退出帳戶"
+    }
+  },
+  "footer": {
+    "contact": "聯繫我們",
+    "copyright": "版權",
+    "support": "由yun3d.com提供技術支援",
+    "scanQR": "掃一掃關注公眾號",
+    "material": "材料介紹",
+    "service": "服務支持",
+    "miniProgram": "DAYU3D小程式",
+    "follow": "關注公眾號",
+    "company": "泉州大宇三維印刷科技有限公司"
+  },
+  "error": {
+    "404": "抱歉,您所訪問的頁面不存在!",
+    "notfound": "頁面未找到",
+    "backhome": "返回首頁"
+  }
+}

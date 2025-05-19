@@ -1,0 +1,44 @@
+$error-background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+$error-button-color: #007bff;
+$error-button-hover-color: #0056b3;
+
+.errorContent {
+  padding: 20px;
+  background: white;
+}
+
+.errorLogo {
+  font-size: 24px;
+  font-weight: bold;
+  color: $error-button-color; // Change to your preferred color
+}
+
+.errorCode {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.errorMessage {
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+.errorDescription {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.backHomeButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: $error-button-color; // Change to your preferred button color
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $error-button-hover-color; // Darker shade for hover effect
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "login": {
+    "btn": "login/signup"
+  },
+  "header": {
+    "menu": {
+      "commodity": "Model Library",
+      "modeling": "Modeling",
+      "print": "3D Print",
+      "cnc": "CNC Machining",
+      "lamination": "Lamination",
+      "scan": "3D Scanning",
+      "about": "About Us"
+    },
+    "cart": "my cart",
+    "account": {
+      "myorder": "My Order",
+      "mywallet": "My Wallet",
+      "merchant": "Merchant center",
+      "personal": "Personal center",
+      "myfavorite": "Favorite",
+      "myworks": "My Works",
+      "logout": "Logout"
+    }
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "copyright": "Copyright",
+    "support": "Powered By yun3d.com",
+    "scanQR": "Scan to follow wechat service account",
+    "material": "Material Introduction",
+    "service": "Service Support",
+    "miniProgram": "DAYU3D Mini Program",
+    "follow": "WeChat Official Account",
+    "company": "Quanzhou Dayu 3D Printing Technology Co., Ltd."
+  },
+  "error": {
+    "404": "Sorry, the page you are looking for does not exist!",
+    "notfound": "Page not found",
+    "backhome": "Go back home"
+  }
+}

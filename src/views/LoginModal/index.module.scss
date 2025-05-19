@@ -1,0 +1,291 @@
+.loginContent {
+  margin-bottom: 30px;
+  margin-top: 70px;
+
+  .loginTitle {
+    display: flex;
+    justify-content: space-around;
+
+    .password {
+      span {
+        font-size: 22px;
+      }
+
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 19px;
+      }
+    }
+
+    .yanzhengcode {
+      span {
+        font-size: 22px;
+      }
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 33px;
+      }
+    }
+  }
+}
+
+.loginModelTitle {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.forgotpasswordTitle {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgotpassword {
+  margin-top: -30px;
+
+  a {
+    color: #1366f0;
+  }
+}
+
+.rightPassword {
+  margin-top: -30px;
+
+  a {
+    color: #1366f0;
+  }
+}
+
+.btnlogin {
+  width: 430px;
+  text-align: center;
+  line-height: 66px;
+  height: 66px;
+  background: #1366f0;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.otherlogins {
+  width: 430px;
+  text-align: center;
+  font-size: 16px;
+  color: #999999;
+
+  img {
+    width: 60px;
+    display: inline-block;
+  }
+}
+
+.loginAgree {
+  width: 430px;
+  text-align: center;
+  font-size: 16px;
+
+  a {
+    color: #1366f0;
+  }
+}
+
+.wechatLogin {
+  font-size: 22px;
+  text-align: center;
+  color: #222222;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.wechatCode {
+  width: 346px;
+  height: 346px;
+  border: 1px solid #dcdcdc;
+  margin: 0 auto;
+  margin-bottom: 15px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.usernumber {
+  text-align: center;
+  margin-bottom: 56px;
+
+  a {
+    color: #1366f0;
+    font-size: 18px;
+    text-decoration-line: underline;
+  }
+}
+
+.wechatloginAgree {
+  text-align: center;
+  font-size: 16px;
+
+  a {
+    color: #1366f0;
+    text-decoration-line: underline;
+  }
+}
+
+.icon-yanzhengma {
+  width: 20px;
+  height: 22px;
+}
+
+.updatePassword {
+  font-size: 22px;
+  color: #222222;
+  margin-bottom: 42px;
+  margin-left: 35px;
+}
+
+.phoneNumber {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.verificationCode {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.passwordnumber {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.confirmmodification {
+  width: 430px;
+  height: 66px;
+  margin: 0 auto;
+  //   margin-top: 20px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.backLogin {
+  width: 430px;
+  margin: 0 auto;
+  text-align: center;
+
+  .bugenggai {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  a {
+    color: #1366f0;
+    font-size: 16px;
+  }
+}
+
+.loginAgree {
+  width: 343px;
+  margin: 0 auto;
+
+  span {
+    font-size: 16px;
+  }
+  a {
+    color: #1366f0;
+  }
+}
+
+.tkhead {
+  width: 820px;
+  height: 734px;
+  padding-top: 23px;
+  padding-left: 30px;
+
+  .headtext {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 45px;
+    .gantanhao {
+      margin-right: 6px;
+
+      img {
+        width: 22px;
+      }
+    }
+    .texthead {
+      font-size: 16px;
+      color: #222222;
+    }
+  }
+  .formhead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .sqsm {
+      font-size: 18px;
+    }
+
+    .serviceBtn {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 22px;
+      }
+    }
+  }
+}
+
+// 申请退款成功样式
+
+.shenqingsuccess {
+  width: 820px;
+  height: 508px;
+  padding-top: 39px;
+  .dagoupic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    img {
+      width: 42px;
+    }
+  }
+  .Successtext {
+    text-align: center;
+    font-size: 26px;
+    color: #222222;
+    margin-bottom: 39px;
+  }
+
+  .tuikshuominghead {
+    width: 652px;
+    height: 156px;
+    // border: 1px solid red;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    color: #222222;
+
+    .tuikshuomingtitle {
+      margin-bottom: 39px;
+    }
+    .shenhetitle {
+      margin-bottom: 60px;
+    }
+    .service {
+      text-align: center;
+    }
+
+    img {
+      width: 22px;
+    }
+  }
+}

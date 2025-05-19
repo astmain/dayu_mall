@@ -1,0 +1,40 @@
+.wechatLogin {
+  font-size: 22px;
+  text-align: center;
+  color: #222222;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.wechatCode {
+  width: 346px;
+  height: 346px;
+  border: 1px solid #dcdcdc;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.usernumber {
+  text-align: center;
+  margin-bottom: 56px;
+
+  a {
+    color: #1366f0;
+    font-size: 18px;
+    text-decoration-line: none;
+  }
+}
+
+.wechatloginAgree {
+  text-align: center;
+  font-size: 16px;
+
+  a {
+    color: #1366f0;
+    text-decoration-line: none;
+  }
+}

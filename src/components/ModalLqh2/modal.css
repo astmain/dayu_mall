@@ -1,0 +1,557 @@
+/* 客户指引弹框自定义样式 */
+.custom-modal-user .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+
+  /* overflow-y: auto; */
+}
+
+.custom-modal-user .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0;
+}
+/* .custom-modal-quchudd .ant-modal-body {
+  padding: 0;
+} */
+
+/* 账单详情弹框自定义样式 */
+.custom-modal-zddetail .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+
+  max-width: 100vw;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+  /* padding-bottom: 30px; */
+  box-sizing: border-box;
+}
+.custom-modal-zddetail {
+  overflow: hidden; /* 确保父容器不会被弹框影响 */
+}
+
+.custom-modal-zddetail .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0;
+}
+
+.custom-modal-zddetail .ant-modal-body {
+  overflow: auto;
+}
+/* 优化我的钱包--账单详情弹框滚动条样式 */
+.custom-modal-zddetail .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-zddetail .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-zddetail .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/*  */
+
+/* .custom-modal-zddetail .ant-modal-body::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+} */
+
+/* 提现弹框自定义样式 */
+.custom-modal-tx .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+
+  max-width: 100vw;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+  /* padding-bottom: 30px; */
+  box-sizing: border-box;
+}
+.custom-modal-tx {
+  overflow: hidden; /* 确保父容器不会被弹框影响 */
+}
+
+.custom-modal-tx .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0;
+}
+
+.custom-modal-tx .ant-modal-body {
+  overflow: auto;
+}
+/* 优化我的钱包--账单详情弹框滚动条样式 */
+.custom-modal-tx .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-tx .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* 提现滚动条样式 */
+.custom-modal-tx .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 我的钱包设置支付密码弹框自定义样式 */
+.custom-modal-qbsetzfpwd .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+}
+.custom-modal-qbsetzfpwd .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0;
+}
+
+.custom-modal-qbsetzfpwd .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化我的钱包提现--设置支付密码滚动条样式 */
+.custom-modal-qbsetzfpwd .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-qbsetzfpwd .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-qbsetzfpwd .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 我的钱包余额充值弹框自定义样式 */
+
+.custom-modal-wdqbyrcz .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+}
+.custom-modal-wdqbyrcz .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  margin-bottom: 0;
+}
+
+.custom-modal-wdqbyrcz .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化我的钱包提现--设置支付密码滚动条样式 */
+.custom-modal-wdqbyrcz .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-wdqbyrcz .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-wdqbyrcz .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 优化我的钱包对公转账弹框自定义样式 */
+.custom-modal-wdqbdgzz .ant-modal-content {
+  width: 830px;
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+}
+.custom-modal-wdqbdgzz .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  /* margin-bottom: 0; */
+  margin-bottom: 0;
+}
+
+.custom-modal-wdqbdgzz .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化我的钱包--对公转账--弹框滚动条 */
+.custom-modal-wdqbdgzz .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-wdqbdgzz .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-wdqbdgzz .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 我的钱包--余额充值--扫码支付--自定义弹框样式 */
+.custom-modal-wdqbsmzf .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-wdqbsmzf .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化我的钱包--扫码支付--弹框滚动条 */
+.custom-modal-wdqbsmzf .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-wdqbsmzf .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-wdqbsmzf .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 个人中心弹框系列自定义样式 */
+.custom-modal-grenzx .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+}
+
+/* 个人中心--账号授权--弹框头部不显示下划线 */
+.custom-modal-grenzx .ant-modal-header {
+  /* border-bottom: 1px solid #dcdcdc; */
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 0px;
+  /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+  /* margin-bottom: 0; */
+  margin-bottom: 0;
+}
+
+.custom-modal-grenzx .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化个人中心--新增账号弹框滚动条样式 */
+.custom-modal-grenzx .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-grenzx .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-grenzx .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 查看物流弹框自定义样式 */
+.custom-modal-ckwl .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+}
+.custom-modal-ckwl .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+/* .custom-modal-ckwl .ant-modal-body {
+  overflow: auto;
+} */
+
+/* 申请退款弹框自定义样式 */
+
+.custom-modal-sqtktk .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的溢出，防止弹框影响布局 */
+}
+
+.custom-modal-sqtktk .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+.custom-modal-sqtktk .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化我的订单申请退款--弹框滚动条样式 */
+.custom-modal-sqtktk .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-sqtktk .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-sqtktk .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* 优化添加新的发票弹框样式 */
+
+.custom-modal-add-fp .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-add-fp .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+.custom-modal-add-fp .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化开票资料--弹框滚动条样式 */
+.custom-modal-add-fp .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-add-fp .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-add-fp .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+.custom-modal-address .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-address .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+/* .custom-modal-address .ant-modal-body {
+  overflow: auto;
+} */
+
+/* 3d打印新增联系人--自定义对话框样式 */
+
+.custom-modal-addlianxiren .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-addlianxiren .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+/* 3d打印地址管理--自定义对话框样式 */
+/*  */
+.custom-modal-addressguanli .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-addressguanli .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+/* 3d打印页面--修改--编辑发票信息--自定义样式 */
+
+.custom-modal-editfpxinxi .ant-modal-content {
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-editfpxinxi .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 21px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 0;
+}
+
+/* 3d打印页面--修改--编辑发票信息--自定义滚动条样式 */
+
+.custom-modal-editfpxinxi .ant-modal-body {
+  overflow: auto;
+}
+
+/* 优化开票资料--弹框滚动条样式 */
+.custom-modal-editfpxinxi .ant-modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-modal-editfpxinxi .ant-modal-body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.custom-modal-editfpxinxi .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
+
+/* custom-close-icon右上角关闭按钮调整样式 */
+/* 覆盖 antd 默认的 Modal 关闭按钮 */
+.ant-modal-close {
+  top: 19.5px !important;
+  right: 20px !important; /* 适当调整位置 */
+  width: 22px !important; /* 设置按钮的宽度 */
+
+  font-size: 22px;
+}
+.ant-modal-close-x {
+  font-size: 22px !important; /* 调整默认关闭图标大小 */
+
+  /* text-align: center; */
+}
+/* .custom-close-icon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+} */
+
+/* 登录页协议弹框样式 */
+
+.custom-modal-loginxieyi .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-loginxieyi .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 15px;
+}
+
+.custom-modal-loginxieyi .ant-modal-body {
+  overflow: auto;
+}
+
+/* 3D设计提交订单--更多信息自定义样式 */
+
+.custom-modal-moreinformation .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-moreinformation .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 15px;
+}
+
+/* 3D打印修改规格弹框自定义样式 */
+.custom-modal-xggg .ant-modal-content {
+  /* 设置客户指引的弹框高度 */
+  max-height: 100vh !important;
+  padding: 0;
+  border-radius: 20px;
+  overflow: hidden; /* 禁用内容区域的��出，防止弹框影响布局 */
+}
+
+.custom-modal-xggg .ant-modal-header {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  margin-bottom: 15px;
+}
+
+.custom-modal-xggg .ant-modal-body {
+  overflow: auto;
+}

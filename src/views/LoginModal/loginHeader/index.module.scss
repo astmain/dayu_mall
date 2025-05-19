@@ -1,0 +1,39 @@
+.loginContent {
+  margin-bottom: 30px;
+  margin-top: 70px;
+
+  .loginTitle {
+    display: flex;
+    justify-content: space-around;
+
+    div.selected::before {
+      content: ""; /* 伪元素内容为空 */
+      position: absolute;
+      left: 50%; /* 将伪元素定位到文字的中间 */
+      top: 100%;
+      width: 42px;
+      height: 6px;
+      background-color: #1366f0; /* 设置伪元素的颜色作为下边框 */
+      transform: translateX(-50%); /* 使伪元素的宽度居中 */
+      border-radius: 3px;
+    }
+
+    .titletext {
+      font-size: 22px;
+    }
+
+    .yanzhengcode {
+      cursor: pointer;
+      span {
+        font-size: 22px;
+      }
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 33px;
+      }
+    }
+  }
+}

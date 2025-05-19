@@ -1,0 +1,53 @@
+{
+  "login": {
+    "btn": "登录/注册"
+  },
+  "header": {
+    "menu": {
+      "commodity": "3D模型",
+      "modeling": "3D设计",
+      "print": "3D打印",
+      "cnc": "CNC加工",
+      "lamination": "手板复膜",
+      "scan": "3D扫描",
+      "about": "关于我们"
+    },
+    "cart": "购物车",
+    "account": {
+      "myorder": "我的订单",
+      "mywallet": "我的钱包",
+      "merchant": "商户中心",
+      "personal": "个人中心",
+      "myfavorite": "收藏和关注",
+      "myworks": "我上传的作品",
+      "logout": "退出账户"
+    }
+  },
+  "footer": {
+    "contact": "联系我们",
+    "copyright": "版权",
+    "support": "由yun3d.com提供技术支持",
+    "company": "泉州大宇三维打印科技有限公司",
+    "scanQR": "扫一扫关注公众号",
+    "material": "材料介绍",
+    "service": "服务支持",
+    "miniProgram": "DAYU3D小程序",
+    "follow": "关注公众号"
+  },
+  "error": {
+    "404": "抱歉,您所访问的页面不存在!",
+    "notfound": "页面未找到",
+    "backhome": "返回首页"
+  },
+  "three": {
+    "sixview": {
+      "topview": "俯视图",
+      "bottomview": "底视图",
+      "frontview": "正视图",
+      "backview": "后视图",
+      "rightview": "右视图",
+      "leftview": "左视图",
+      "homeview": "主视图"
+    }
+  }
+}

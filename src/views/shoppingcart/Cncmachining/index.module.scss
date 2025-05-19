@@ -1,0 +1,132 @@
+.printinghead {
+  width: 1200px;
+  // height: 800px;
+  // border: 1px solid red;
+
+  .maintable {
+    width: 1200px;
+
+    border-radius: 20px; /* 设置圆角 */
+    overflow: hidden; /* 隐藏溢出部分 */
+    border: 1px solid #dcdcdc; /* 可选：设置外边框 */
+    table {
+      width: 1200px;
+      border-collapse: collapse; /* 合并单元格边框 */
+
+      thead {
+        width: 1200px;
+        height: 56px;
+        background: #f5f5f5;
+        border-bottom: 1px solid #dcdcdc;
+
+        tr {
+          width: 100%;
+          height: 56px;
+          background: #f5f5f5;
+        }
+      }
+      tbody {
+      }
+      tr {
+        height: 140px;
+        border-bottom: 1px solid #dcdcdc;
+      }
+
+      tr:last-child {
+        border: none;
+        td {
+          // vertical-align: top; /* 垂直对齐方式 */
+          white-space: normal; /* 允许单元格内的文本自动换行 */
+          .gghead {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            font-size: 14px;
+            color: #666666;
+
+            .lefttext {
+              width: 162px;
+              margin-right: 38px;
+              font-size: 14px;
+              color: #666666;
+            }
+            .righttitle {
+              width: 140px;
+            }
+          }
+          .imgtitle {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .threeDtext {
+              position: absolute;
+              top: 2px;
+              width: 36px;
+              height: 16px;
+              background: #1366f0;
+              border-radius: 0px 0px 0px 8px;
+              right: 15px;
+              color: #fff;
+              font-size: 12px;
+            }
+          }
+          .num {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .yujifhrq {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #222222;
+            font-size: 14px;
+            width: 137px;
+          }
+          .price {
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f05113;
+            flex-wrap: wrap;
+            font-size: 18px;
+            p {
+              white-space: normal; /* 默认值，允许自动换行 */
+              word-wrap: break-word; /* 允许长单词断开换行 */
+              word-break: break-all; /* 强制长单词断开换行 */
+              margin: 0; /* 移除段落的默认外边距 */
+            }
+          }
+          .xiuguigehead {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .xiuguigetext {
+              margin-right: 15px;
+            }
+
+            a {
+              color: #1366f0;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    .footerleft {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

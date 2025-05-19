@@ -1,0 +1,123 @@
+.loginhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContent {
+  margin-bottom: 30px;
+
+  .loginTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+
+    .password {
+      cursor: pointer;
+      span {
+        font-size: 22px;
+      }
+
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 19px;
+      }
+    }
+
+    .yanzhengcode {
+      cursor: pointer;
+      span {
+        font-size: 22px;
+      }
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 33px;
+      }
+    }
+  }
+}
+
+.loginModelTitle {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.forgotpasswordTitle {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.forgotpassword {
+  margin-top: -30px;
+
+  a {
+    color: #1366f0;
+    font-size: 14px;
+  }
+}
+
+.rightPassword {
+  margin-top: -30px;
+  span {
+    font-size: 14px;
+    color: #222222;
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  a {
+    color: #1366f0;
+  }
+}
+
+// .btnlogin {
+//   width: 430px;
+//   text-align: center;
+//   line-height: 66px;
+//   height: 66px;
+//   // background: #1366f0;
+//   // border-radius: 10px;
+//   color: white;
+//   font-size: 22px;
+//   cursor: pointer;
+// }
+
+.otherTitle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  .otherloginswechat {
+    cursor: pointer;
+
+    img {
+      width: 60px;
+      display: inline-block;
+    }
+  }
+}
+
+.otherlogins {
+  text-align: center;
+  font-size: 16px;
+  color: #999999;
+}
+
+.loginAgree {
+  width: 430px;
+  text-align: center;
+  font-size: 16px;
+
+  a {
+    color: #1366f0;
+  }
+}

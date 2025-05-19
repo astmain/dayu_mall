@@ -1,0 +1,93 @@
+/* 非选中项的背景颜色为白色 */
+.custom-pagination .ant-pagination-item {
+  background-color: white;
+}
+
+/* 屏幕大于1200
+@media screen and (min-width: 1200px) {
+  .upheadwork {
+    width: 77vw;
+    max-width: 1470px;
+  }
+
+  .upworkheader {
+    width: 77vw;
+    max-width: 1470px;
+  }
+
+  .uptimehead {
+    width: 78vw;
+    max-width: 1470px;
+  }
+}
+
+/* 1440-1200 */
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+  /* .merchantcenterhead {
+    width: 100%;
+  } */
+  /* 我上传的作品中间表格表格头部样式 */
+  /* .upheadwork {
+    width: 73vw;
+    max-width: 1470px;
+  } */
+
+  /* .upworkheader {
+    width: 73vw;
+    max-width: 1470px;
+  } */
+
+  /* 上传时间--联系客服 */
+  /* .uptimehead {
+    width: 74.8vw;
+    max-width: 1470px;
+  } */
+}
+
+/* 992-1200 */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* 我上传的作品中间表格表格头部样式 */
+  /* .upheadwork {
+    width: 66vw;
+  }
+
+  .upworkheader {
+    width: 66vw;
+  } */
+
+  /* 上传时间--联系客服 */
+  /* .uptimehead {
+    width: 68.5vw;
+  } */
+}
+
+/* // 768px-992px：中等屏幕 */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* .upheadwork {
+    width: 58vw;
+  }
+
+  .upworkheader {
+    width: 58vw;
+    padding-left: 8px;
+  } */
+
+  /* 上传时间--联系客服 */
+  .uptimehead {
+    width: 60.3vw;
+  }
+
+  /* 重新编辑样式 */
+  /* .Reedit {
+    flex: 3 1 0% !important;
+  } */
+  .uptimeheader {
+    /* min-width: 992px; */
+    /* overflow-x: scroll !important; */
+  }
+}
+
+/* 小屏幕:先不考虑
+ @media screen and (max-width: 768px) {
+ } */

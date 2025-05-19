@@ -1,0 +1,39 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  // background: #bcbcbc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  .header {
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    .headerContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 30px;
+      height: 20px;
+      // margin-bottom: 0;
+      .closeIcon {
+        cursor: pointer;
+        color: #ccc;
+        &:hover {
+          color: #999;
+        }
+      }
+    }
+  }
+}

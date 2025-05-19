@@ -1,0 +1,474 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  html {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+  }
+} */
+
+:root {
+  /* background-color: #242424;
+  color: rgb(255 255 255 / 87%);
+  color-scheme: light dark; */
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  /* -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 24px; */
+  text-rendering: optimizelegibility;
+  text-size-adjust: 100%;
+}
+
+#root {
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  color: #646cff;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  /* display: flex;
+  margin: 0; */
+  min-height: 100vh;
+  min-width: 320px;
+  /* place-items: center; */
+}
+.text-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.underline-xzz {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.table-xzz:hover {
+  background-color: #fafafa;
+}
+
+.absolute-center-xzz {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 将自身宽高的50%向左上平移 */
+}
+.absoluteX-center-xzz {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, 0); /* 将自身宽高的50%向左上平移 */
+}
+
+.absoluteY-center-xzz {
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(0, -50%); /* 将自身宽高的50%向左上平移 */
+}
+
+/* .order-type-select:hover{
+  background: #1368f042;
+  border-left: 12;
+} */
+.container-border-xzz {
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  width: 100%;
+  padding: 30px;
+}
+.text-btn-xzz:hover {
+  background: #1368f042;
+}
+/* 滚动条整体样式 */
+::-webkit-scrollbar {
+  /* 滚动条宽度 */
+  /* width: 8px; */
+  /* scrollbar-width: none; For Firefox */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 轨道背景色 */
+  border-radius: 10px; /* 轨道圆角 */
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: #c9c9c9; /* 滑块颜色 */
+  border-radius: 10px; /* 滑块圆角 */
+}
+
+/* 滚动条滑块悬停状态 */
+::-webkit-scrollbar-thumb:hover {
+  background: #8d8d8d; /* 悬停时的颜色 */
+}
+
+/* 修改antdesign Cascader 下拉滚动条 隐藏 */
+.ant-cascader-menu {
+  /* scrollbar-width: none; For Firefox */
+  /* -ms-overflow-style: none; For IE and Edge */
+}
+
+.ant-cascader-menu::-webkit-scrollbar {
+  /* display: none; For Chrome, Safari, and Opera */
+}
+
+/* body.-webkit-scrollbar {
+  margin-right: 8px;
+} */
+
+/* .swiper-slide-active {
+  width: 70% !important;
+  transform: translateX(30%) !important;
+}
+
+.swiper-slide-prev {
+  transform: translateX(55%) !important;
+}
+.swiper-slide-next {
+  transform: translateX(15%) !important;
+} */
+
+/* 个人中心--左下角列表滚动条样式 */
+.scrollable-PersonalCenter::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollable-PersonalCenter::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.scrollable-PersonalCenter::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.scrollable-PersonalCenter::-webkit-scrollbar-thumb:hover {
+  background: #f5f5f5;
+}
+
+/* 个人中心--个人信息--请选择生日样式 */
+.custom-datepicker-placeholderBrithday input::placeholder {
+  font-size: 18px !important;
+}
+
+.custom-datepicker-placeholderBrithday input {
+  font-size: 18px !important;
+}
+
+/* 新增账号弹框选择标签样式 */
+
+.custom-select .ant-select-selection-placeholder {
+  font-size: 18px !important;
+}
+
+/* 密码登录验证码登录相互切换样式和手机注册邮箱注册切换样式 */
+
+div.selected::before {
+  content: ""; /* 伪元素内容为空 */
+  position: absolute;
+  left: 50%; /* 将伪元素定位到文字的中间 */
+  top: 100%;
+  width: 42px;
+  height: 6px;
+  background-color: #1366f0; /* 设置伪元素的颜色作为下边框 */
+  transform: translateX(-50%); /* 使伪元素的宽度居中 */
+  border-radius: 3px;
+}
+
+/* 绑定手机号请输入手机号input样式代码 */
+.bind-phone-number input {
+  font-size: 18px;
+  height: 66px;
+  line-height: 66px;
+}
+/* 验证码登录请输入手机号input样式代码 */
+.VerificationcodeloginCom-phone-num input {
+  font-size: 18px;
+  height: 66px;
+  line-height: 66px;
+}
+/* 用手机找回请输入手机号样式 */
+.changepassword-phone-num input {
+  font-size: 18px;
+  height: 66px;
+  line-height: 66px;
+}
+
+/* -----------我的钱包样式系列-------------- */
+/* 我的钱包系列--头部tab切换--border样式 动态切换的页面的样式 */
+
+.moneyBorder {
+  width: 48px;
+  height: 6px;
+  background: #1366f0;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+/* 提现弹框显示右上角关闭按钮 */
+/* .model-entry-custom-select .ant-select-selection-placeholder {
+
+} */
+
+.custom-modal-tx .ant-modal-content {
+  overflow: hidden; /* 防止弹框内容区域的溢出，避免影响布局 */
+}
+
+.ant-modal-mask {
+  transition: none !important;
+}
+
+body {
+  overflow-y: scroll;
+}
+/* .custom-placeholderTx .ant-input::placeholder {
+  font-size: 18px;
+}
+.custom-placeholderTx .custom-input {
+  font-size: 18px !important;
+} */
+
+/* ---------------商户中心样式系列------ */
+
+/* 自定义 Popover 的背景颜色 */
+.custom-popover-wrz .ant-popover-inner {
+  width: 182px;
+  height: 108px;
+  background: #666666 !important;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.custom-popover-ketixian .ant-popover-inner {
+  width: 182px;
+  height: 70px;
+  background: #666666 !important;
+  border-radius: 10px;
+  font-size: 14px;
+}
+/* 数据概览前缀竖线 */
+.merchantcenterSugl::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  width: 6px;
+  height: 21px;
+  margin-top: 2px;
+
+  background: #f05113;
+  border-radius: 3px;
+}
+
+/* 作品概况前缀竖线 */
+
+.zpgk::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  width: 6px;
+  height: 21px;
+  margin-top: 6px;
+  /* // margin-top: 13px; */
+  background: #f05113;
+  border-radius: 3px;
+}
+
+/* .daishouhou:nth-of-type(4) {
+  margin-right: 30px;
+}
+.daishouhou:nth-of-type(1) {
+  margin-left: 30px;
+} */
+
+/* 趋势图前缀竖线 */
+.qushitutext::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  width: 6px;
+  height: 21px;
+  margin-top: 6px;
+  /* // margin-top: 13px; */
+  background: #f05113;
+  border-radius: 3px;
+}
+
+.tubiaoneirong div:nth-of-type(1) {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.tubiaoneirong div:nth-of-type(2) {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.tubiaoneirong div:nth-of-type(3) {
+  border-right: 1px solid #dcdcdc;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+/* 趋势样式代码 */
+.isQushi {
+  cursor: pointer !important;
+  background-color: #1366f0 !important;
+  color: #ffffff !important;
+}
+.isQushi:nth-of-type(1) {
+  border-top-left-radius: 18px !important;
+  border-bottom-left-radius: 18px !important;
+}
+.isQushi:nth-of-type(2) {
+  border-radius: 0px !important;
+}
+.isQushi:nth-of-type(3) {
+  border-radius: 0px !important;
+}
+
+.isQushi:nth-of-type(4) {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 18px !important;
+  border-bottom-right-radius: 18px !important;
+}
+
+.zuijinfangketextzuijinfangke::before {
+  position: absolute;
+  content: "";
+
+  left: 0;
+  width: 6px;
+  height: 21px;
+  margin-top: 6px;
+  background: #f05113;
+  border-radius: 3px;
+}
+/* 最近访客系列滚动条样式 */
+.scrollable-div::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* 3D设计建模类型 数据格式 材料类型 字体样式代码 */
+.model-entry-custom-select .ant-select-selection-placeholder {
+  font-size: 18px !important;
+  color: #dcdcdc;
+}
+
+.model-entry-custom-input .ant-input-group-addon {
+  font-size: 18px; /* 设置字体大小 */
+}
+
+/* 个人认证上传组件宽度样式 */
+.custom-upload-geren .ant-upload-select {
+  width: 245px !important;
+  height: 153px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* margin-left: ; */
+  /* z-index: 999 !important; */
+}
+
+.custom-upload-geren-none .ant-upload-select {
+  display: none !important;
+}
+
+.custom-upload-geren .ant-upload-list {
+  height: 153px !important;
+}
+
+/* 禁用上传文件列表的过度效果 */
+.custom-upload-geren .ant-upload-list-item {
+  /* transition: none !important;
+  animation: none !important; */
+}
+/* 上传错误样式 */
+.custom-upload-geren .ant-upload-list-item-error {
+  width: 245px !important;
+  height: 153px !important;
+}
+
+.custom-upload-geren .ant-upload-list-item-image {
+  object-fit: cover !important;
+}
+
+/* 上传undefined样式 */
+.custom-upload-geren .ant-upload-list-item-undefined {
+  width: 245px !important;
+  height: 153px !important;
+}
+
+/* 上传完成样式 */
+.custom-upload-geren .ant-upload-list-item-done {
+  width: 245px !important;
+  height: 153px !important;
+}
+
+/* 3D打印文件列表右边的滚动条样式 */
+
+.scrollbarTable::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbarTable::-webkit-scrollbar-track {
+  background: #dcdcdc;
+}
+
+.scrollbarTable::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.scrollbarTable::-webkit-scrollbar-thumb:hover {
+  background: #f5f5f5;
+}
+
+/* 购物车滚动条样式 */
+
+.shoppingCarScrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.shoppingCarScrollbar::-webkit-scrollbar-track {
+  background: #dcdcdc;
+}
+
+.shoppingCarScrollbar::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.shoppingCarScrollbar::-webkit-scrollbar-thumb:hover {
+  background: #f5f5f5;
+}

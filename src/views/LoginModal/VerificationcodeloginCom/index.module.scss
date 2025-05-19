@@ -1,0 +1,104 @@
+.loginyanzhengmahead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContent {
+  margin-bottom: 30px;
+
+  .loginTitle {
+    display: flex;
+    justify-content: space-around;
+    width: 315px;
+
+    .password {
+      cursor: pointer;
+      span {
+        font-size: 22px;
+      }
+
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 19px;
+      }
+    }
+
+    .yanzhengcode {
+      cursor: pointer;
+      span {
+        font-size: 22px;
+      }
+      .border {
+        width: 42px;
+        height: 6px;
+        background: #1366f0;
+        border-radius: 3px;
+        margin-left: 33px;
+      }
+    }
+  }
+}
+
+.loginModelTitle {
+  width: 430px;
+  margin: 0 auto;
+}
+.verificationCode {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.btnlogin {
+  width: 430px;
+  text-align: center;
+  line-height: 66px;
+  height: 66px;
+  background: #1366f0;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.otherTitle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.otherlogins {
+  text-align: center;
+  font-size: 16px;
+  color: #999999;
+
+  img {
+    width: 60px;
+    display: inline-block;
+  }
+}
+
+.otherloginswechat {
+  text-align: center;
+  cursor: pointer;
+  img {
+    width: 60px;
+    display: inline-block;
+  }
+}
+
+.loginAgree {
+  width: 430px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0 auto;
+
+  a {
+    color: #1366f0;
+  }
+}

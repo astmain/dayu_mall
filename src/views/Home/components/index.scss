@@ -1,0 +1,77 @@
+// /* 自定义导航按钮的样式 */
+// .home-swiper-custom-prev,
+// .home-swiper-custom-next {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   z-index: 1000;
+//   font-size: 2rem;
+//   color: #f01111;
+//   background-color: rgba(0, 0, 0, 0.5);
+//   width: 40px;
+//   height: 40px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 50%;
+//   cursor: pointer;
+//   user-select: none;
+// }
+
+// .home-swiper-custom-prev {
+//   left: -20px; /* 调整位置 */
+// }
+
+// .home-swiper-custom-next {
+//   right: -20px; /* 调整位置 */
+// }
+
+// .home-swiper-custom-prev:hover,
+// .home-swiper-custom-next:hover {
+//   background-color: rgba(0, 0, 0, 0.8);
+// }
+
+.home-swiper {
+  user-select: none;
+
+  .swiper-button-prev {
+    color: #fff;
+    left: 18%;
+    border-radius: 50%;
+    background: #00000080;
+    width: 50px;
+    height: 50px;
+
+    &:after {
+      font-size: 24px;
+    }
+    &:hover {
+      background: #00000090;
+    }
+  }
+  .swiper-button-next {
+    color: #fff;
+    right: 18%;
+    border-radius: 50%;
+    background: #00000080;
+    width: 50px;
+    height: 50px;
+
+    &:after {
+      font-size: 24px;
+    }
+    &:hover {
+      background: #00000090;
+    }
+  }
+}
+
+.home-search-input-custom-search .ant-input-affix-wrapper {
+  height: 60px;
+  line-height: 60px;
+  border-radius: 16px 0 0 16px !important;
+  padding: 0 30px !important;
+}
+.home-search-input-custom-search input {
+  font-size: 18px !important;
+}

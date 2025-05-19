@@ -1,0 +1,13 @@
+/* .userscroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.userscroll::-webkit-scrollbar-track {
+  background: #ffffff;
+} */
+
+/* 客户指引弹框滚动条样式1 */
+.custom-modal-user .ant-modal-body::-webkit-scrollbar-thumb {
+  background: rgba(#333, #333, #333, 0.5);
+  border-radius: 10px;
+}
