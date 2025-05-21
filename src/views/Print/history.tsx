@@ -52,11 +52,11 @@ function HistoryTable() {
 
   useEffect(() => {
     const dataSource = printHistory.map<DataType>((_, i) => {
-      const { id, file_name, upload_time, designer } = _
+      const { id, file_name, upload_time, designer, image_url } = _
       return {
         key: i + 1,
         id,
-        imgSrc: <img src="shopcarimg.png" className="w-[100%] h-[100%] " />,
+        imgSrc: <img src={image_url} className="w-[100%] h-[100%] " />,
         filename: file_name,
         // filesize: "16.32mb",
         uploadtime: upload_time,
