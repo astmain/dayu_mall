@@ -98,8 +98,8 @@ function FileList() {
                     <div className="text-[16px] text-[#F05113] flex-1">￥{(item.price * item.qty).toFixed(2)}</div>
                   </div>
                   <div className=" flex justify-center items-center  px-[10px]  h-[100%]">
-                    <div className="max-w-[100px] max-h-[100px] basis-1/5">
-                      <img src="" alt="" className="w-[90%] h-[90%]" />
+                    <div className="max-w-[100px] max-h-[100px] basis-1/5   class111">
+                      <img src={item.image_url} alt="" className="w-[90%] h-[90%]" />
                     </div>
 
                     <div className="text-[12px]  basis-3/5  max-h-[100px] flex justify-between ">

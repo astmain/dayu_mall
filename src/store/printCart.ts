@@ -17,6 +17,7 @@ interface PrintCartItem {
   weight: string
   floor_height: string
   isChecked?: boolean
+  image_url:string
 
   // materialScience: string
   // viewPicture: string
