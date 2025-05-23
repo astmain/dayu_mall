@@ -139,7 +139,14 @@ const AddressFormXzz: React.FC<{ updateAddressList: () => void }> = ({ updateAdd
                   <div style={{ width: "98px" }}>取消</div>
                 </XzzBtn>
                 <XzzBtn type="primary" htmlType="submit" loading={loading}>
-                  <div style={{ width: "98px" }}>保存</div>
+                  <div
+                    style={{ width: "98px" }}
+                    onClick={() => {
+                      console.log(111)
+                    }}
+                  >
+                    保存111
+                  </div>
                 </XzzBtn>
               </Space>
             </Form.Item>
