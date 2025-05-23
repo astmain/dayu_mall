@@ -1,16 +1,16 @@
-
 ## 宝塔面板
+
 https://192.168.0.250:31937/18ead7d5
 yun3d/Dayu_1688
 
 ## odoo18接口文档
+
 http://192.168.0.111:8999/api/docs
 admin/admin
 
 收货地址查找
 isEditModalOpen
 保存111
-
 
 ## 自己笔记
 
@@ -85,8 +85,3 @@ git commit -m "feat(global): 新增header组件"
 - 开发除了src/views目录,其他目录为功能封装文件,尽可能不改动
 - 尽可能少引入外部依赖库
 - css写法有2种 `module.scss` 和 `tailwind`
-
-
-
-
-
